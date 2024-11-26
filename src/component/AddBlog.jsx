@@ -3,7 +3,7 @@ import Header from './Header'
 import { useNavigate } from 'react-router-dom'
 import { toast } from 'react-toastify'
 import axios from 'axios'
-const URL = 'http://localhost:5000'
+const URL = 'https://blogbackend-1-11nd.onrender.com'
 
 export default function AddBlog() {
     const [title, setTitle] = useState('')
