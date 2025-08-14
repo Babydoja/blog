@@ -3,11 +3,15 @@ import React, { useEffect, useState } from 'react'
 import axios from 'axios'
 import Header from './Header'
 import { Link, useParams } from 'react-router-dom'
+import { toast } from 'react-toastify'
 const URL = 'https://blogbackend-1-11nd.onrender.com'
+// const URL = 'http://localhost:5000/api/blog'
 
 
 
 export default function Hero() {
+
+  // const [blog, setBlog] = useState([]) 
   const [data, setData] = useState([])
   const {id} = useParams()
   const getAllBlog =async () => {
@@ -31,7 +35,6 @@ export default function Hero() {
       toast.error('Blog deleted successfully')
     }
   }
-  
   return (
     <div>
     <Header/>

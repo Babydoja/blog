@@ -4,6 +4,7 @@ import { toast } from 'react-toastify'
 import Header from './Header'
 import axios from 'axios'
 const URL = 'https://blogbackend-1-11nd.onrender.com'
+// const URL = 'http://localhost:5000/api/blog'
 
 
 export default function EditBlog() {
