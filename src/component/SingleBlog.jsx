@@ -2,7 +2,7 @@ import axios from 'axios'
 import React, { useEffect, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import Header from './Header'
-const URL = 'https://blogbackend-1-11nd.onrender.com'
+const URL = 'https://blogbackend-1-11nd.onrender.com/api/blog'
 // const URL = 'http://localhost:5000/api/blog'
 
 
